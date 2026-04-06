@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects - Portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="manifest" href="manifest.json">
+
+
+    
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Portfolio<span>.</span></a>
+            
+            <nav class="desktop-nav">
+                <a href="index.html">Home</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="about.html">About</a>
+            </nav>
+
+            <button id="mobile-menu-btn" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu hidden">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="projects.html" class="active mobile-link">Projects</a>
+        <a href="about.html" class="mobile-link">About</a>
+    </div>
+
+    <section class="page-header container">
+        <h1>My Projects</h1>
+        <p>A collection of things I've built, ranging from web applications to impactful systems designed to solve real-world problems.</p>
+    </section>
+
+    <section class="projects-page container">
+        <div class="project-grid">
+            
+            <div class="project-card">
+                <div class="project-image-wrapper bg-light-gray">
+                    <img src="images/project-1.jpg" alt="Class Scheduling System">
+                </div>
+                <div class="tags">
+                    <span>Web Development</span>
+                    <span>Genetic Algorithm</span>
+                    <span>System Design</span>
+                </div>
+                <h3>Web-Based Class Scheduling System</h3>
+                <p>Designed and developed a scheduling system utilizing Genetic Algorithms for conflict detection and optimization to streamline college class assignments.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Preview</a>
+                    <a href="#" class="project-link text-muted"><i class="fas fa-code-branch"></i> Source Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image-wrapper bg-sand">
+                    <img src="images/project-2.jpg" alt="ManuScan System">
+                </div>
+                <div class="tags">
+                    <span>UI/UX</span>
+                    <span>OCR Technology</span>
+                    <span>Database Management</span>
+                </div>
+                <h3>ManuScan: Archiving & Retrieval</h3>
+                <p>An OCR-based archiving and full-text retrieval system specifically built for managing thesis and capstone project manuscripts for the College of Computer Studies.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Preview</a>
+                    <a href="#" class="project-link text-muted"><i class="fas fa-code-branch"></i> Source Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image-wrapper bg-light-gray">
+                    <img src="images/project-3.jpg" alt="Inclusive Job Portal">
+                </div>
+                <div class="tags">
+                    <span>Accessibility</span>
+                    <span>Web App</span>
+                    <span>Social Impact</span>
+                </div>
+                <h3>Inclusive Job Portal</h3>
+                <p>A specialized job portal tailored for Persons with Disabilities (PWDs) and Senior Citizens in Calamba City, designed to bridge the employment gap for marginalized sectors.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Preview</a>
+                    <a href="#" class="project-link text-muted"><i class="fas fa-code-branch"></i> Source Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image-wrapper bg-sand">
+                    <img src="images/project-4.jpg" alt="Milk Tea POS">
+                </div>
+                <div class="tags">
+                    <span>Frontend</span>
+                    <span>Inventory</span>
+                    <span>POS</span>
+                </div>
+                <h3>Milk Tea Cafe POS & Inventory</h3>
+                <p>A complete point-of-sale and inventory management system designed for a local cafe to track sales, manage stock levels, and streamline order processing.</p>
+                <div class="project-links">
+                    <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Preview</a>
+                    <a href="#" class="project-link text-muted"><i class="fas fa-code-branch"></i> Source Code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top container">
+            <div class="footer-brand">
+                <a href="#" class="logo text-white">Portfolio<span>.</span></a>
+                <p>Building beautiful digital experiences.</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

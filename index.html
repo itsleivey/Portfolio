@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="manifest" href="manifest.json">
+
+    
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Portfolio<span>.</span></a>
+            
+            <nav class="desktop-nav">
+                <a href="#" class="active">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About</a>
+            </nav>
+
+            <button id="mobile-menu-btn" class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu hidden">
+        <a href="#" class="active mobile-link">Home</a>
+        <a href="projects.html" class="mobile-link">Projects</a>
+       <a href="about.html" class="mobile-link">About</a>
+    </div>
+
+    <section class="hero container">
+        <div class="hero-content">
+            <span class="badge">Available for new opportunities</span>
+            <h1>Hi, I'm  <span>Carl Leinard Larga</span> Your UI designer.</h1>
+            <p>I design clean, engaging, and user-centric interfaces. My focus is on turning complex problems into elegant, pixel-perfect visual solutions.</p>
+            
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                <a href="about.html" class="btn btn-secondary">More About Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+        <img src="images/Profile.jpg" alt="My Profile Picture">
+        </div>
+    </section>
+
+    <section id="projects.html" class="projects container">
+        <div class="section-header">
+            <div>
+                <h2>Featured Work</h2>
+                <p>A selection of my recent projects focusing on UI/UX and web development.</p>
+            </div>
+            <a href="projects.html" class="view-all">View all projects <i class="fas fa-chevron-right"></i></a>
+        </div>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image-wrapper bg-light-gray">
+                   <img src="images/dump1.jpg" alt="Eco-Friendly E-Commerce">
+                </div>
+                <div class="tags">
+                    <span>React</span>
+                    <span>Tailwind</span>
+                    <span>Stripe</span>
+                </div>
+                <h3>Eco-Friendly E-Commerce</h3>
+                <p>A sustainable shopping platform with seamless checkout.</p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image-wrapper bg-sand">
+                     <img src="images/dump2.jpg" alt="Fintech Dashboard App">
+                </div>
+                <div class="tags">
+                    <span>React Native</span>
+                    <span>Firebase</span>
+                    <span>Redux</span>
+                </div>
+                <h3>Fintech Dashboard App</h3>
+                <p>Mobile-first financial tracking with real-time analytics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-container">
+            <h2>Ready to start your next project?</h2>
+            <p>I'm currently available for freelance work and full-time opportunities. Let's build something great together.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-white">Get in touch</a>
+                <a href="#" class="learn-more">Learn more <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-top container">
+            <div class="footer-brand">
+                <a href="#" class="logo text-white">Portfolio<span>.</span></a>
+                <p>Building beautiful digital experiences.</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
