@@ -1,4 +1,7 @@
-const CACHE_NAME = "portfolio-cache-v2";
+// Changed to v2 to force the browser to update your code
+const CACHE_NAME = "portfolio-cache-v2"; 
+
+// Removed all leading slashes and added your dump images
 const urlsToCache = [
   "./index.html",
   "about.html",
